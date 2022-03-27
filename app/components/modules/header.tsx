@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <div className={styles.header}>
             <div className={styles.headerLeft}>
-            <Image className={styles.logo} src={logo} width='80px' height='80px'/>
+            <Image className={styles.logo} src={logo} width='80px' height='80px' alt='Logo'/>
             </div>
             <div className={styles.headerRight}>
                 <Button dark text='About'/>
