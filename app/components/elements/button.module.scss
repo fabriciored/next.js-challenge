@@ -1,0 +1,49 @@
+@import "../../../styles/colors.scss";
+
+.buttonDark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1px;
+  margin: 1px;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0px solid transparent;
+
+  cursor: pointer;
+  transition: 1s;
+}
+.buttonLight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1px;
+  margin: 1px;
+  width: 8rem;
+  height: 40px;
+  border-radius: 10px;
+
+  background-image: $button-purple;
+  border: 0px solid transparent;
+
+  cursor: pointer;
+  transition: 1s;
+}
+
+.buttonDark:hover {
+  border: 1px solid rgb(70, 70, 70);
+}
+.buttonLight:hover {
+  border: 1px solid rgb(69, 25, 230);
+}
+
+.buttonText {
+  font-weight: 600;
+  color: $text-light;
+
+}
