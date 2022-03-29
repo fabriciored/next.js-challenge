@@ -1,0 +1,30 @@
+.featured {
+    margin: 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+
+    h1, h2 {
+        span {
+            color: #bc0aed;
+        }
+    }
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+}
+
+.Typewriter {
+    font-size: 80px;
+    color: aliceblue;
+}
